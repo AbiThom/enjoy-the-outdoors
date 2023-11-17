@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+
+main {
+    background-color: aqua;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#wrapper {
+    background-image: url(/data/images/Passaconoway-StoryImg.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 90vh;
+    text-align: center;
+}
+
+#blue {
+    background-color: beige;
+    
+}
+
+#glass {
+    background: linear-gradient(white);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:20px;
+    border: 0.3px solid white;
+    box-shadow: black;
+    height: 17rem;
+    width: 30rem;
+}
+
+h1 {
+    padding:2rem;
+}
+
+p {
+  padding-left: 3rem;  
+  padding-right: 3rem;
+}
