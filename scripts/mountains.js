@@ -5,7 +5,6 @@
 window.onload = function (_event) {
     // Populate the select element  with moutain names
     const mountainsSelect = document.getElementById("mountains")
-    console.log(mountainsSelect)
     mountainsSelect.onchange = renderMountains
     // ONCHANGE EVENT: Display the selected mountain
 
